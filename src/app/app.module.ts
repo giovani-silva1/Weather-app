@@ -19,6 +19,6 @@ import { WeatherCardComponent } from './modules/weather/componentes/weather-card
     FontAwesomeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent, WeatherCardComponent],
 })
 export class AppModule {}
